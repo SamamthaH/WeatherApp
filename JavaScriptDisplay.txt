@@ -1,0 +1,11 @@
+iconElement.innerHTML =
+	'<img src="icons/${weather.iconID}.png"/>';
+
+tempElement.innerHTML =
+	'${weather.temperature.value} ° <span>C</span>';
+
+descElement.innerHTML =
+	weather.description;
+
+locationElement.innerHTML =
+	'${weather.city}, ${weather.country}';
