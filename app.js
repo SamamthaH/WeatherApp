@@ -48,7 +48,7 @@ function setPosition(position)
 function showError(error)
 {
     notificationElement.style.display = "block";
-    notificationElement.innerHTML = <p>${error.message}</p>;
+    notificationElement.innerHTML = "<p> ${error.message} </p>";
 }
 
 
