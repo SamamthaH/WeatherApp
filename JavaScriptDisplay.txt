@@ -1,11 +1,13 @@
-iconElement.innerHTML =
-	'<img src="icons/${weather.iconID}.png"/>';
+DisplayWeather(){
+	iconElement.innerHTML =
+		'<img src="icons/${weather.iconID}.png"/>';
 
-tempElement.innerHTML =
-	'${weather.temperature.value} ° <span>C</span>';
+	tempElement.innerHTML =
+		'${weather.temperature.value} ° <span>C</span>';
 
-descElement.innerHTML =
-	weather.description;
+	descElement.innerHTML =
+		weather.description;
 
-locationElement.innerHTML =
-	'${weather.city}, ${weather.country}';
+	locationElement.innerHTML =
+		'${weather.city}, ${weather.country}';
+}
